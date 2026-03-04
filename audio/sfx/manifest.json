@@ -1,0 +1,432 @@
+{
+  "version": "1.0",
+  "description": "Sound effects for Tilled farming board game",
+  "license_summary": "All sounds are CC0 (public domain) or CC-BY with attribution noted. No attribution required for CC0 sounds.",
+  "sounds": {
+    "plant-seed": {
+      "file": "plant-seed.mp3",
+      "event": "plantSeed",
+      "category": "crop",
+      "description": "Soft wood thud for planting seeds in soil",
+      "source": "OpenGameArt - 80 CC0 RPG SFX (item_wood_01.ogg)",
+      "sourceUrl": "https://opengameart.org/content/80-cc0-rpg-sfx",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "crop-mature": {
+      "file": "crop-mature.mp3",
+      "event": "cropMature",
+      "category": "crop",
+      "description": "Gentle confirmation chime when crop reaches maturity",
+      "source": "OpenGameArt - Kenney Interface Sounds (confirmation_002.ogg)",
+      "sourceUrl": "https://opengameart.org/content/interface-sounds",
+      "license": "CC0",
+      "attribution": "none required (Kenney.nl appreciated)"
+    },
+    "harvest": {
+      "file": "harvest.mp3",
+      "event": "harvest",
+      "category": "crop",
+      "description": "Foliage rustle sound for harvesting crops",
+      "source": "OpenGameArt - Nature Sounds Pack (Foliage01.wav)",
+      "sourceUrl": "https://opengameart.org/content/nature-sounds-pack",
+      "license": "CC-BY 4.0",
+      "attribution": "Nature Sounds Pack by Suburbia Sonic"
+    },
+    "crop-wilt": {
+      "file": "crop-wilt.mp3",
+      "event": "cropWilt",
+      "category": "crop",
+      "description": "Sad negative tone when crops wither/rot",
+      "source": "OpenGameArt - GUI Sound Effects by Lokif (negative.wav)",
+      "sourceUrl": "https://opengameart.org/content/gui-sound-effects",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "hex-select": {
+      "file": "hex-select.mp3",
+      "event": "hexSelect",
+      "category": "board",
+      "description": "Soft wood tap for selecting a hex tile",
+      "source": "OpenGameArt - 80 CC0 RPG SFX (wood_01.ogg)",
+      "sourceUrl": "https://opengameart.org/content/80-cc0-rpg-sfx",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "hex-place": {
+      "file": "hex-place.mp3",
+      "event": "hexPlace",
+      "category": "board",
+      "description": "Wood hit thud for placing a hex tile",
+      "source": "OpenGameArt - 100 CC0 Metal and Wood SFX (wood_hit_01.ogg)",
+      "sourceUrl": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "invalid-action": {
+      "file": "invalid-action.mp3",
+      "event": "invalidAction",
+      "category": "board",
+      "description": "Short error buzzer for invalid actions",
+      "source": "OpenGameArt - Kenney Interface Sounds (error_004.ogg)",
+      "sourceUrl": "https://opengameart.org/content/interface-sounds",
+      "license": "CC0",
+      "attribution": "none required (Kenney.nl appreciated)"
+    },
+    "buy-item": {
+      "file": "buy-item.mp3",
+      "event": "buyItem",
+      "category": "market",
+      "description": "Coin clink sound for purchasing items",
+      "source": "OpenGameArt - 80 CC0 RPG SFX (item_coins_01.ogg)",
+      "sourceUrl": "https://opengameart.org/content/80-cc0-rpg-sfx",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "sell-crops": {
+      "file": "sell-crops.mp3",
+      "event": "sellCrops",
+      "category": "market",
+      "description": "Coins sound for selling crops at market",
+      "source": "OpenGameArt - 80 CC0 RPG SFX (item_coins_03.ogg)",
+      "sourceUrl": "https://opengameart.org/content/80-cc0-rpg-sfx",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "price-up": {
+      "file": "price-up.mp3",
+      "event": "priceUp",
+      "category": "market",
+      "description": "Positive ding when market prices rise",
+      "source": "OpenGameArt - GUI Sound Effects by Lokif (positive.wav)",
+      "sourceUrl": "https://opengameart.org/content/gui-sound-effects",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "price-down": {
+      "file": "price-down.mp3",
+      "event": "priceDown",
+      "category": "market",
+      "description": "Negative tone when market prices drop",
+      "source": "OpenGameArt - GUI Sound Effects by Lokif (negative_2.wav)",
+      "sourceUrl": "https://opengameart.org/content/gui-sound-effects",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "coin-gain": {
+      "file": "coin-gain.mp3",
+      "event": "coinGain",
+      "category": "resource",
+      "description": "Single coin clink for gaining coins",
+      "source": "OpenGameArt - 12 Coin Sound Effects (coin.1.ogg)",
+      "sourceUrl": "https://opengameart.org/content/12-coin-sound-effects",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "wood-collect": {
+      "file": "wood-collect.mp3",
+      "event": "woodCollect",
+      "category": "resource",
+      "description": "Wood thunk for collecting wood resources",
+      "source": "OpenGameArt - 80 CC0 RPG SFX (item_wood_02.ogg)",
+      "sourceUrl": "https://opengameart.org/content/80-cc0-rpg-sfx",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "stone-collect": {
+      "file": "stone-collect.mp3",
+      "event": "stoneCollect",
+      "category": "resource",
+      "description": "Stone clink for collecting stone resources",
+      "source": "OpenGameArt - 80 CC0 RPG SFX (item_stone_01.ogg)",
+      "sourceUrl": "https://opengameart.org/content/80-cc0-rpg-sfx",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "iron-collect": {
+      "file": "iron-collect.mp3",
+      "event": "ironCollect",
+      "category": "resource",
+      "description": "Metallic sound for collecting iron resources",
+      "source": "OpenGameArt - 80 CC0 RPG SFX (metal_01.ogg)",
+      "sourceUrl": "https://opengameart.org/content/80-cc0-rpg-sfx",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "water-collect": {
+      "file": "water-collect.mp3",
+      "event": "waterCollect",
+      "category": "resource",
+      "description": "Water splash for collecting water resources",
+      "source": "OpenGameArt - 40 CC0 Water/Splash/Slime SFX (splash_01.ogg)",
+      "sourceUrl": "https://opengameart.org/content/40-cc0-water-splash-slime-sfx",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "build-complete": {
+      "file": "build-complete.mp3",
+      "event": "buildComplete",
+      "category": "infrastructure",
+      "description": "Hammer strike for completing a building",
+      "source": "OpenGameArt - 100 CC0 Metal and Wood SFX (hammer_01.ogg)",
+      "sourceUrl": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "windmill": {
+      "file": "windmill.mp3",
+      "event": "windmill",
+      "category": "infrastructure",
+      "description": "Wind whoosh for windmill activation",
+      "source": "OpenGameArt - Wind Whoosh Loop (wind woosh loop.ogg, trimmed to 2s)",
+      "sourceUrl": "https://opengameart.org/content/wind-whoosh-loop",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "trade-route": {
+      "file": "trade-route.mp3",
+      "event": "tradeRoute",
+      "category": "infrastructure",
+      "description": "Swish sound for establishing trade routes",
+      "source": "OpenGameArt - Swishes Sound Pack (swish-1.wav)",
+      "sourceUrl": "https://opengameart.org/content/swishes-sound-pack",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "button-click": {
+      "file": "button-click.mp3",
+      "event": "buttonClick",
+      "category": "ui",
+      "description": "Crisp click for UI button presses",
+      "source": "OpenGameArt - Kenney Interface Sounds (click_003.ogg)",
+      "sourceUrl": "https://opengameart.org/content/interface-sounds",
+      "license": "CC0",
+      "attribution": "none required (Kenney.nl appreciated)"
+    },
+    "panel-open": {
+      "file": "panel-open.mp3",
+      "event": "panelOpen",
+      "category": "ui",
+      "description": "Swoosh/sweep for opening panels",
+      "source": "OpenGameArt - Kenney Interface Sounds (maximize_003.ogg)",
+      "sourceUrl": "https://opengameart.org/content/interface-sounds",
+      "license": "CC0",
+      "attribution": "none required (Kenney.nl appreciated)"
+    },
+    "panel-close": {
+      "file": "panel-close.mp3",
+      "event": "panelClose",
+      "category": "ui",
+      "description": "Reverse swoosh for closing panels",
+      "source": "OpenGameArt - Kenney Interface Sounds (minimize_003.ogg)",
+      "sourceUrl": "https://opengameart.org/content/interface-sounds",
+      "license": "CC0",
+      "attribution": "none required (Kenney.nl appreciated)"
+    },
+    "toast-appear": {
+      "file": "toast-appear.mp3",
+      "event": "toastAppear",
+      "category": "ui",
+      "description": "Soft ping for toast notification appearance",
+      "source": "OpenGameArt - Kenney Interface Sounds (pluck_001.ogg)",
+      "sourceUrl": "https://opengameart.org/content/interface-sounds",
+      "license": "CC0",
+      "attribution": "none required (Kenney.nl appreciated)"
+    },
+    "season-change": {
+      "file": "season-change.mp3",
+      "event": "seasonChange",
+      "category": "game",
+      "description": "Transition sweep for season changes",
+      "source": "OpenGameArt - Swishes Sound Pack (swish-5.wav)",
+      "sourceUrl": "https://opengameart.org/content/swishes-sound-pack",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "weather-event": {
+      "file": "weather-event.mp3",
+      "event": "weatherEvent",
+      "category": "game",
+      "description": "Storm/rain/thunder for weather events (3s clip)",
+      "source": "OpenGameArt - Nature Sounds Pack (AmbientNatureStormRainThunder.wav, trimmed to 3s)",
+      "sourceUrl": "https://opengameart.org/content/nature-sounds-pack",
+      "license": "CC-BY 4.0",
+      "attribution": "Nature Sounds Pack by Suburbia Sonic"
+    },
+    "turn-start": {
+      "file": "turn-start.mp3",
+      "event": "turnStart",
+      "category": "game",
+      "description": "Soft bell/bong chime for turn start",
+      "source": "OpenGameArt - Kenney Interface Sounds (bong_001.ogg)",
+      "sourceUrl": "https://opengameart.org/content/interface-sounds",
+      "license": "CC0",
+      "attribution": "none required (Kenney.nl appreciated)"
+    },
+    "vp-gain": {
+      "file": "vp-gain.mp3",
+      "event": "vpGain",
+      "category": "game",
+      "description": "Triumphant sharp echo ding for VP gain",
+      "source": "OpenGameArt - GUI Sound Effects by Lokif (sharp_echo.wav)",
+      "sourceUrl": "https://opengameart.org/content/gui-sound-effects",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "endgame-fanfare": {
+      "file": "endgame-fanfare.mp3",
+      "event": "endgameFanfare",
+      "category": "game",
+      "description": "Chiptune victory fanfare for endgame celebration",
+      "source": "OpenGameArt - Victory (Victory_0.mp3)",
+      "sourceUrl": "https://opengameart.org/content/victory",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "card-draw": {
+      "file": "card-draw.mp3",
+      "event": "cardDraw",
+      "category": "game",
+      "description": "Paper rustle for drawing a card",
+      "source": "OpenGameArt - Card Game Sounds (draw.wav)",
+      "sourceUrl": "https://opengameart.org/content/card-game-sounds",
+      "license": "CC0",
+      "attribution": "none required"
+    },
+    "card-shuffle": {
+      "file": "card-shuffle.mp3",
+      "event": "cardShuffle",
+      "category": "game",
+      "description": "Card shuffle sound for deck shuffling",
+      "source": "OpenGameArt - Kenney Casino Audio (card-shuffle.ogg)",
+      "sourceUrl": "https://opengameart.org/content/54-casino-sound-effects-cards-dice-chips",
+      "license": "CC0",
+      "attribution": "none required (Kenney.nl appreciated)"
+    }
+  },
+  "ogg_alternatives": {
+    "note": "OGG versions added by music-scout for AudioManager fallback (loads .mp3 first, .ogg second)",
+    "buttonClick.ogg": "Kenney Interface - click_003.ogg (CC0)",
+    "panelOpen.ogg": "Kenney Interface - maximize_002.ogg (CC0)",
+    "panelClose.ogg": "Kenney Interface - close_002.ogg (CC0)",
+    "error.ogg": "Kenney Interface - error_004.ogg (CC0)",
+    "coins.ogg": "Star Ninjas - coin.3.ogg (CC0)",
+    "vpGain.ogg": "OGA UI SFX - Ding.ogg (CC0)",
+    "cardSelect.ogg": "Kenney Casino - card-slide-1.ogg (CC0)",
+    "cropMature.ogg": "Kenney Interface - confirmation_001.ogg (CC0)"
+  },
+  "extra_ui_sfx": {
+    "note": "Additional UI/notification sounds added by music-scout from existing packs",
+    "notification_ping.ogg": "Kenney Interface - confirmation_001.ogg (CC0)",
+    "notification_chime.ogg": "OGA UI SFX - chimes.ogg (CC0)",
+    "confirm_select.ogg": "Kenney Interface - confirmation_002.ogg (CC0)",
+    "toggle.ogg": "Kenney Interface - toggle_001.ogg (CC0)",
+    "bong.ogg": "Kenney Interface - bong_001.ogg (CC0)",
+    "ding.ogg": "OGA UI SFX - Ding.ogg (CC0)",
+    "ding_deep.ogg": "OGA UI SFX - ding_deep.ogg (CC0)",
+    "alarm.ogg": "OGA UI SFX - alarm.ogg (CC0)",
+    "short_fanfare.wav": "Lokif GUI SFX - positive.wav (CC0)",
+    "negative.wav": "Lokif GUI SFX - negative.wav (CC0)",
+    "card_rustle.ogg": "Kenney Casino - card-slide-1.ogg (CC0)",
+    "card_place.ogg": "Kenney Casino - card-place-1.ogg (CC0)",
+    "card_shuffle.ogg": "Kenney Casino - card-shuffle.ogg (CC0)",
+    "chip_place.ogg": "Kenney Casino - chip-lay-1.ogg (CC0)",
+    "panel_whoosh.wav": "Swishes pack - swish-2.wav (CC0)",
+    "coin_clink.ogg": "Star Ninjas - coin.3.ogg (CC0)",
+    "vp_ding.ogg": "Kenney Interface - pluck_002.ogg (CC0)",
+    "error_buzz.ogg": "Kenney Interface - error_004.ogg (CC0)"
+  },
+  "packs_downloaded": [
+    {
+      "name": "Kenney Interface Sounds",
+      "url": "https://opengameart.org/content/interface-sounds",
+      "license": "CC0",
+      "files_used": ["click_003.ogg", "error_004.ogg", "confirmation_002.ogg", "maximize_003.ogg", "minimize_003.ogg", "pluck_001.ogg", "bong_001.ogg"]
+    },
+    {
+      "name": "GUI Sound Effects by Lokif",
+      "url": "https://opengameart.org/content/gui-sound-effects",
+      "license": "CC0",
+      "files_used": ["negative.wav", "negative_2.wav", "positive.wav", "sharp_echo.wav"]
+    },
+    {
+      "name": "80 CC0 RPG SFX",
+      "url": "https://opengameart.org/content/80-cc0-rpg-sfx",
+      "license": "CC0",
+      "files_used": ["item_wood_01.ogg", "item_wood_02.ogg", "item_coins_01.ogg", "item_coins_03.ogg", "item_stone_01.ogg", "metal_01.ogg", "wood_01.ogg"]
+    },
+    {
+      "name": "100 CC0 Metal and Wood SFX",
+      "url": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+      "license": "CC0",
+      "files_used": ["wood_hit_01.ogg", "hammer_01.ogg"]
+    },
+    {
+      "name": "12 Coin Sound Effects",
+      "url": "https://opengameart.org/content/12-coin-sound-effects",
+      "license": "CC0",
+      "files_used": ["coin.1.ogg"]
+    },
+    {
+      "name": "Card Game Sounds",
+      "url": "https://opengameart.org/content/card-game-sounds",
+      "license": "CC0",
+      "files_used": ["draw.wav"]
+    },
+    {
+      "name": "Kenney Casino Audio",
+      "url": "https://opengameart.org/content/54-casino-sound-effects-cards-dice-chips",
+      "license": "CC0",
+      "files_used": ["card-shuffle.ogg"]
+    },
+    {
+      "name": "40 CC0 Water/Splash/Slime SFX",
+      "url": "https://opengameart.org/content/40-cc0-water-splash-slime-sfx",
+      "license": "CC0",
+      "files_used": ["splash_01.ogg"]
+    },
+    {
+      "name": "Nature Sounds Pack",
+      "url": "https://opengameart.org/content/nature-sounds-pack",
+      "license": "CC-BY 4.0",
+      "attribution": "Nature Sounds Pack by Suburbia Sonic",
+      "files_used": ["Foliage01.wav", "AmbientNatureStormRainThunder.wav"]
+    },
+    {
+      "name": "Swishes Sound Pack",
+      "url": "https://opengameart.org/content/swishes-sound-pack",
+      "license": "CC0",
+      "files_used": ["swish-1.wav", "swish-5.wav"]
+    },
+    {
+      "name": "Wind Whoosh Loop",
+      "url": "https://opengameart.org/content/wind-whoosh-loop",
+      "license": "CC0",
+      "files_used": ["wind woosh loop.ogg"]
+    },
+    {
+      "name": "Victory (chiptune fanfare)",
+      "url": "https://opengameart.org/content/victory",
+      "license": "CC0",
+      "files_used": ["Victory_0.mp3"]
+    },
+    {
+      "name": "Rain (loopable)",
+      "url": "https://opengameart.org/content/rain-loopable",
+      "license": "CC0",
+      "files_used": ["(available in _packs/rain/ for weather variations)"]
+    },
+    {
+      "name": "85 Short Music Jingles (Kenney)",
+      "url": "https://opengameart.org/content/85-short-music-jingles",
+      "license": "CC0",
+      "files_used": ["(available in _packs/jingles/ for additional jingles)"]
+    },
+    {
+      "name": "UI Sound Effects (Button Clicks, Notifications)",
+      "url": "https://opengameart.org/content/ui-sound-effects-button-clicks-user-feedback-notifications",
+      "license": "CC0",
+      "files_used": ["chimes.ogg", "Ding.ogg", "ding_deep.ogg", "alarm.ogg"]
+    }
+  ]
+}
